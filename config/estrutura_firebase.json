@@ -1,0 +1,30 @@
+{
+  "area51_dse_p2": {
+    "dispositivos": {
+      "esp32_01": {
+        "atuadores": {
+          "alarme_armado": true,
+          "buzzer": false,
+          "led_rgb": "verde"
+        },
+        "configuracao": {
+          "limite_cm": 35
+        },
+        "historico": {
+          "log_inicial": {
+            "data_hora": "12/11/2026 08:00:00",
+            "evento": "ARMADO",
+            "ocorrencia": "Sistema inicializado em ambiente de redundancia"
+          }
+        },
+        "relatorios": {
+          "ultimo_status": "OPERACIONAL"
+        },
+        "sensores": {
+          "distancia_cm": 150,
+          "presenca": false
+        }
+      }
+    }
+  }
+}
